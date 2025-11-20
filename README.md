@@ -19,6 +19,7 @@ This is the replication package of paper "ActRef: Enhancing the Understanding of
 4. Run main.py
 
 ## Notice
-ActRef requires the 'Before' and 'After' files, which have been modified during a commit, we offer all the commits used in our experiment, if you want to detect other commits, please add them into the 'commits/' directory.
+- ActRef requires the 'Before' and 'After' files, which have been modified during a commit, we offer all the commits used in our experiment, if you want to detect other commits, please add them into the 'commits/' directory.
 The result will be saved as 'results.csv', consist of SHA, refactoring operation name, refactored element name, changed element name, old element type, old element location, old module location, and new module location.
+- Please use GumTree in the link above
 
