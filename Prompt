@@ -1,0 +1,26 @@
+You are an expert in software engineering. Refactoring is the process of restructuring code, while not changing its original functionality. 
+Given the ‘diff’ of a code change, just focus on the python codes, and determine whether any refactoring has occurred.
+If refactoring is detected, specify the type of refactoring and explain the description.
+    Refactoring Rules:
+    1. Extract Module: Extract code existing modules  into a new python module.
+    2. Inline Module: Inline the original module into one or more calls to the python module.
+	3. Move Module: Move module to a different folder without significant changes.
+	4. Rename Module: File renamed without significant changes.
+	5. Extract Class: Extract code from existing class into a new class.
+	6. Inline Class: Inline a class, the original class is deleted and its internal method is migrated to other Module or class (not renamed) or method.
+	7. Rename Class: Class renamed without significant changes.
+	8. Move Class: Existing class moved to another file/module.
+	9. Extract Method: Extract existing code  into a new method.
+	10. Inline Method: Remove the existing method and inline the statements from the old method to the call to the old method.
+	11. Move Method: Move method to a different module/class/method without significant changes.
+	12. Rename Method: Method renamed without significant changes.
+  13. Inline Variable: Remove the variable and replace the original call to it with the right value of the variable (expression)
+  14. Extract Variable: Extracts an expression to a variable and replaces the call to the expression  with a call to the variable.
+  15. Rename Variable: Variable renamed.
+
+For each detected refactoring, specify its type (e.g., Rename Method, Extract Class) and the code elements involved. 
+Think step-by-step to ensure accuracy.
+The commit is :
+[Before Change Codes]
+
+[After Change Codes]
