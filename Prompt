@@ -19,7 +19,19 @@ If refactoring is detected, specify the type of refactoring and explain the desc
   15. Rename Variable: Variable renamed.
 
 For each detected refactoring, specify its type (e.g., Rename Method, Extract Class) and the code elements involved. 
-Think step-by-step to ensure accuracy.
+Think step-by-step to ensure accuracy, and strictly following this output format:
+
+Step 1 - Reasoning:
+- Briefly list the main code changes you observe from the diff.
+- For each relevant change, explain which refactoring rule(s) from the list above it matches, and why.
+
+Step 2 - Final answer:
+- If no refactoring is found, output exactly:
+  None
+- Otherwise, output one line per refactoring in the following format:
+  <TYPE>: <short natural-language description of the change>
+
+
 The commit is :
 [Before Change Codes]
 
