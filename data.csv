@@ -1595,7 +1595,7 @@ a0464dc48757ffc3cd3e28f4c3aa547ccc138034,Extract Variable,https://github.com/dee
 5274b86b40c88f1bd89676404e4b89c2b1c18156,Rename Variable,https://github.com/pgmpy/pgmpy/commit/5274b86b40c88f1bd89676404e4b89c2b1c18156,TP
 5274b86b40c88f1bd89676404e4b89c2b1c18156,Rename Variable,https://github.com/pgmpy/pgmpy/commit/5274b86b40c88f1bd89676404e4b89c2b1c18156,TP
 5274b86b40c88f1bd89676404e4b89c2b1c18156,Rename Class,https://github.com/pgmpy/pgmpy/commit/5274b86b40c88f1bd89676404e4b89c2b1c18156,TP
-5274b86b40c88f1bd89676404e4b89c2b1c18156,Inline Variable,,FP
+5274b86b40c88f1bd89676404e4b89c2b1c18156,Inline Variable,,TP
 5274b86b40c88f1bd89676404e4b89c2b1c18156,Extract Variable,,FP
 514b7f7c52d7231f1a3615819b1adb237de73004,Rename Method,https://github.com/raghakot/keras-vis/commit/514b7f7c52d7231f1a3615819b1adb237de73004,TP
 514b7f7c52d7231f1a3615819b1adb237de73004,Rename Method,https://github.com/raghakot/keras-vis/commit/514b7f7c52d7231f1a3615819b1adb237de73004,TP
@@ -2270,4 +2270,5 @@ a0464dc48757ffc3cd3e28f4c3aa547ccc138034,Extract Variable,https://github.com/dee
 013b000db2729c136c9f2b84e86545c97764ea26,Extract Method,https://github.com/deepmind/sonnet/commit/013b000db2729c136c9f2b84e86545c97764ea26,FN
 005bf9164b063c47e354e170ae40ec1e1b94fae4,Rename Method,https://github.com/asyml/texar/commit/005bf9164b063c47e354e170ae40ec1e1b94fae4,TP
 005bf9164b063c47e354e170ae40ec1e1b94fae4,Rename Class,https://github.com/asyml/texar/commit/005bf9164b063c47e354e170ae40ec1e1b94fae4,TP
+
 0022854a64751f0e8387c01e79e1c0545c3ea6d2,Rename Method,https://github.com/Unity-Technologies/ml-agents/commit/0022854a64751f0e8387c01e79e1c0545c3ea6d2,TP
