@@ -5,14 +5,14 @@ This is the replication package of paper "ActRef: Enhancing the Understanding of
 ```
 ActRef/
 │
-├── actref/                     # Core detection implementation
-├── doc/                    # Docs
-│   ├── ExtensionGuid.md       # How to extend new refactoring types' detection
-│   ├── Manual_analyse_codebook.xlsx            # Refactoring definitions
-│   ├── Prompt            # LLM baselines' prompt
+├── actref/                              # Core detection implementation
+├── doc/                                 # Docs
+│   ├── ExtensionGuid.md                 # How to extend new refactoring types' detection
+│   ├── Manual_analyse_codebook.xlsx     # Refactoring definitions
+│   ├── Prompt                           # LLM baselines' prompt
 │   └── data.csv  # Dataset
 │
-├── evaluation/                 # Evaluation scripts
+├── evaluation/                          # Evaluation scripts
 │
 └── README.md
 ```
