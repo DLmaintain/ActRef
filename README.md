@@ -2,6 +2,7 @@
 This is the replication package of paper "ActRef: Enhancing the Understanding of Python Code Refactoring with Action-Based Analysis"
 
 ## Structure
+```
 ActRef/
 │
 ├── actref/                     # Core detection implementation
@@ -14,7 +15,7 @@ ActRef/
 ├── evaluation/                 # Evaluation scripts
 │
 └── README.md
-
+```
 ## Requirements
 - python = 3.8
 - GumTree <https://figshare.com/s/984c7a39266137e29c37>
