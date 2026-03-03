@@ -15,3 +15,6 @@ python run_LLM_baseline.py \
     --commit_dir commits \
     --prompt ..\doc\Prompt \
     --output_dir outputs
+
+## Evaluation
+Please run the cal_pr_TOOLNAME.py to calculate the metrics value, use the data.csv as ground truth
