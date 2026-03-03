@@ -25,7 +25,7 @@ ActRef/
   
 ## Usage
 1. Please download the 'commits.zip' and 'gumtree.jar' from Figshare<https://figshare.com/s/984c7a39266137e29c37>
-2. Unzip 'commits.zip' and put 'gumtree.jar' into 'lib/'
+2. Unzip 'commits.zip' and put 'gumtree.jar' into 'actref/lib/'
 3. Prepare pythonparser:
      - cd pythonparser
      - pip install -r requirement.txt
